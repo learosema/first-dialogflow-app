@@ -1,0 +1,17 @@
+{
+  "name": "namegenerator",
+  "version": "0.0.1",
+  "description": "hello world app for Google Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "deploy": "firebase deploy --only functions"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^1.6.1",
+    "firebase-admin": "^5.5.1",
+    "firebase-functions": "^0.7.3"
+  }
+}
